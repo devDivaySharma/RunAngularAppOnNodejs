@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "this to run angular 2+ application on node js serve",
+  "main": "server.js",
+  "scripts": {
+    "preinstall": "",
+    "start": "npm start",
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devDivaySharma/RunAngularAppOnNodejs.git"
+  },
+  "author": "Divay Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devDivaySharma/RunAngularAppOnNodejs/issues"
+  },
+  "homepage": "https://github.com/devDivaySharma/RunAngularAppOnNodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "path": "^0.12.7"
+  }
+}
