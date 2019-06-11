@@ -4,8 +4,7 @@
   "description": "this to run angular 2+ application on node js serve",
   "main": "server.js",
   "scripts": {
-    "preinstall": "",
-    "start": "npm start",
+    "start": "cd public/App && npm install ng build --prod --aot && cd ../../ && node server.js",
     "test": "start"
   },
   "repository": {

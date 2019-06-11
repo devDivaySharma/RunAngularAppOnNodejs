@@ -9,8 +9,8 @@ var path = require('path');
 /**
  * hit the html page using this app for index folder
  */
-app.get('/',(req,res) =>{
-    res.sendFile(path.join(__dirname + '/public/App/dist/App/index.html'));
+app.get('/index',(req,res) =>{
+    res.sendFile(path.join(__dirname + '/public/CompiledApp/index.html'));
 });
 
 app.listen(port);
